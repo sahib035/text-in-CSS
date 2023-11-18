@@ -1,0 +1,182 @@
+/* body{
+    font-family: cursive;
+}
+h1 {
+    font-family: Arial, Verdana, sans-serif;
+}
+.credits {
+    font-family: "Courier New", Courier,
+    monospace;} */
+
+    /* font-sizes */
+    
+    /* pixels */
+    /* p{
+        font-size: 64px;
+    } */
+
+    /* percentages */
+    /* p{
+        font-size: 500%;
+    } */
+
+    /* default size */
+    /* p{
+       font-size: larger; 
+    } */
+
+    /* EMS */
+    /* p{
+        font-size: 5em;
+    } */
+
+    /* FONT FACE */
+   /* @font-face{
+    font-family: 'test';
+    src: url('/fonts/EduTASBeginner-Bold.ttf');
+   }
+   h1{
+    font-family: test;
+   } */
+
+
+   /* font weight  */
+   /* h1{
+    font-weight:1000;
+   } */
+
+   /* font- style */
+    /* #italic{
+    font-style: italic;
+   }
+   #normal{
+    font-style: normal;
+   }
+   #oblique{
+    font-style: oblique;
+   } */
+
+   /* TEXT transform */
+   /* h1{
+    text-transform: uppercase;
+   } */
+   /* h1{
+    text-transform: capitalize;
+   } */
+
+   /* TEXT DECORATION */
+   /* #none{
+    text-decoration: none;
+   }
+   #underline{
+    text-decoration: underline;
+   }
+   #overline{
+    text-decoration: overline;
+   }
+   #line-through{
+    text-decoration: line-through;
+   }
+   #blink{
+    text-decoration: b;
+   } */
+
+   /* line height/leading */
+   /* p{
+    line-height: 30px;
+   } */
+
+   /* letter and word spacing */
+   /* word spacing */
+   /* h1{
+    word-spacing: 5px;
+   } */
+   /* letter spacing */
+   /* h1{
+    letter-spacing: -9px;
+   } */
+   /* Text Align */
+   /* h1{
+    text-align: center;
+   }
+   p{
+    text-align: justify;
+   } */
+
+   /* VERTICLE ALIGNMENT */
+   /* img{
+    vertical-align: middle;
+   } */
+
+   /* text indent */
+   /* h1{
+    text-indent:200px ;
+    text-align: center;
+   } */
+
+   /* TEXT SHADOW */
+   /* h1{
+        background-color: #eeeeee;
+        color: #666666;
+        text-shadow: 2px 2px 1px #000000;
+   }  */
+
+   /* first letter first line */
+   /* p::first-line{
+    color: brown;
+   } */
+   /* p::first-letter{
+    color: blue;
+   } */
+   /* stylink links */
+   /* a:visited{
+    color: red;
+   } */
+   /* responding user */
+   /* hover */
+   /* input.btn:hover{
+    background-color: rgb(34, 36, 36);
+    color: white;
+    size: 2px;
+   }
+   input.btn:active{
+    background-color: aqua;
+    color: white;
+    size: 2px;
+   }
+   input.text:focus{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    size: 2px;
+   }
+   input.text:active{
+    background-color: aqua;
+    color: white;
+    size: 2px;
+   } */
+
+   /* Atribute selector */
+   /* Existance */
+  /* h1[text]{
+    color: red;
+  } */
+  /* equality */
+  /* h1[text="hi"]{
+    color: red;
+  } */
+  /* space */
+  /* h1[text~='eln']{
+    color: red;
+  } */
+  /* prefix */
+  /* h1[name^="b"]{
+    color: red;
+  } */
+  /* substring */
+  /* h1[test*="el"]{
+    color: red;
+  } */
+  /* sufix */
+  h1[test$="l"]{
+    color: blue;
+  }
